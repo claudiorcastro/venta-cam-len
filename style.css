@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    
+}
+.card {
+    flex: 1;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+
+}
+.card img {
+    object-fit: cover;
+    filter: grayscale(1);
+    height: 250px;
+}
+.card:hover {
+    flex: 3;
+    height: 250px;
+}
+.card:hover img {
+    filter: none;
+}
+body{
+    background-image: url("https://i.gifer.com/76YS.gif");
+}
